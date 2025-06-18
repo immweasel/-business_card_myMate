@@ -1,0 +1,24 @@
+.about_txt {
+  background-color: #fa9f5e;
+  border-radius: 0 60px 60px 0;
+  padding: 10px 10px 10px 0;
+}
+
+.about_1_txt {
+}
+
+.about_txt_inner {
+  color: #4b2d10;
+  background-color: #ffe8ae;
+  border-radius: 0 50px 50px 0;
+  font-style: italic;
+  font-size: clamp(28px, 2.5vw, 40px);
+  padding: 10px 80px 10px 100px;
+}
+
+@media (max-width: 480px) {
+  .about_txt_inner {
+    font-size: 22px;
+    padding: 10px 80px 10px 25px;
+  }
+}

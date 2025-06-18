@@ -1,0 +1,34 @@
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 180px;
+}
+
+footer h1 {
+	font-family: 'Junegull-Regular';
+	color: #8E3B00;
+	margin: 0;
+	font-size: 100px;
+	padding-bottom: 80px;
+}
+
+footer h3 {
+	font-family: 'Alegreya Sans';
+	font-size: 36px;
+	color: #8E3B00;
+	margin: 0;
+	padding-bottom: 60px;
+}
+
+@media (max-width: 480px) {
+	footer h1 {
+		font-size: 50px;
+		font-weight: 700;
+	}
+	
+	footer h3 {
+		font-size: 17px;
+	}
+}

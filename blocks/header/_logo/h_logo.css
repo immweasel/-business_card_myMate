@@ -1,0 +1,5 @@
+.h_logo img {
+  width: 100%;
+  max-width: 199px;
+  object-fit: contain;
+}

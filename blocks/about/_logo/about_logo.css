@@ -1,0 +1,14 @@
+.about_logo img {
+  margin-left: 90px;
+  margin-top: 70px;
+  width: 100%;
+  max-width: clamp(300px, 50vw, 650px);
+  object-fit: contain;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 480px) {
+  .about_logo img {
+    max-width: 287px;
+  }
+}
